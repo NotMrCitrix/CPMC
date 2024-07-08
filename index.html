@@ -4,7 +4,7 @@
     <title>MC Control</title>
     <script>
         function sendAction() {
-            fetch('http://localhost:3000/action', {
+            fetch('http://10.0.0.135:3000/action', { // Replace 192.168.1.100 with your local IP address
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
